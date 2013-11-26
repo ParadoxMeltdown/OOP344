@@ -8,7 +8,6 @@ namespace Jrona {
     bits(int val);
     void set(signed int pos, bool toval);
     void set(signed int pos, char* newVal);
-    int getVal();
     bool operator[](int bitNo);
   };
 }
