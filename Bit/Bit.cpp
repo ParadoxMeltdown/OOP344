@@ -55,7 +55,7 @@ int main(){
   cout<<"Testing operator<< with the bits class"<<endl;
   cout<<B<<endl;
   cout<<"Testing multiple value set function"<<endl;
-  B.set(5, "01010100000101011010101010101010100100101");
+  B.set(5, "0101010");
   cout<<B<<endl;
   return 0;
 }
